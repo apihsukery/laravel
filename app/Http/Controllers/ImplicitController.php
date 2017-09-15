@@ -33,9 +33,9 @@ class ImplicitController extends Controller
    public function postProfile(){
       echo 'profile method';
    }
-   private $myclass;
+   // private $myclass;
    
-   public function index(\MyClass $myclass){
-      dd($myclass);
-   }
+   // public function index(\MyClass $myclass){
+   //    dd($myclass);
+   // }
 }
