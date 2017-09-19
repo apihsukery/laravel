@@ -57,7 +57,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => 'localhost',
-            'database' => 'test_db',
+            'database' => 'college',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',

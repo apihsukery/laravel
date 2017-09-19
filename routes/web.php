@@ -53,4 +53,18 @@ Route::get('/register',function(){
 });
 Route::post('/userRegister',array('uses'=>'UserRegistration@postRegister'));
 
+Route::get('test', function(){
+   return view('test');
+});
+Route::get('/test2', function(){
+   return view('test2');
+});
+
+Route::get('blade', function () {
+   return view('page',array('name' => 'Virat Gandhi'));
+});
+
+Route::get('insert','insertStudent@insertform');
+Route::post('create','insertStudent@insert');
+
 ?>
