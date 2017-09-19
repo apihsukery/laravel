@@ -1,0 +1,57 @@
+html
+{ height: 100%;}
+
+body {background:#B8B8E6;}
+
+#header{
+  	background:#EDA3DA;
+}
+#center_header{
+	
+	
+	height:155px;
+	margin:50px auto;
+	width:1010px;
+	
+	
+	clear: both;
+	
+	width: 1010px;
+	background: #fff;
+	-moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);	
+	position: relative; 
+	z-index: 90; /* the stack order: displayed under ribbon rectangle (100) */
+	
+	}
+#left_header{
+   float:left;
+   font-size:40px;
+   line-height: 100px;
+   text-align: center;
+   width:370px;
+   margin: 17px 0 0;
+}
+#menu{
+	float:right;
+	height: 30px;
+	margin: 55px 0 0;
+	width: 530px;
+	}
+#menu a{
+	color: #FF33CC;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 12px;
+	}	
+#menu a:hover{
+   background: #FFEBFA url(images/hover-menu-items.png) repeat-x;
+}
+#login{
+	float:right;
+	margin: -30px 0 0;
+	}

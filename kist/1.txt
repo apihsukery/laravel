@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+
+<frameset noresize rows="30%,*">
+  <frame src="header.php">
+  <frame src="container.php">
+</frameset>
+
+</html>

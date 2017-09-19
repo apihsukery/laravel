@@ -1,0 +1,94 @@
+html
+{ height: auto;}
+
+body {background:#B8B8E6;
+		height: auto;
+		}
+
+#header{
+  	background:#EDA3DA;
+}
+#center_header{
+	
+	
+	height:155px;
+	margin:50px auto;
+	width:1010px;
+	
+	
+	clear: both;
+	
+	width: 1010px;
+	background: #fff;
+	-moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);	
+	position: relative; 
+	z-index: 90; /* the stack order: displayed under ribbon rectangle (100) */
+	
+	}
+#left_header{
+   float:left;
+   font-size:40px;
+   line-height: 100px;
+   text-align: center;
+   width:370px;
+   margin: 17px 0 0;
+}
+#menu{
+	float:right;
+	height: 30px;
+	margin: 40px 0 0;
+	width: 530px;
+	}
+#menu a{
+	color: grey;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 12px;
+	}	
+.text
+{
+text-shadow: 0 0 10px #c61a1a;
+font-size:50px;
+color:#c61a1a;
+}
+
+
+#login{
+	float:right;
+	margin: -30px 0 0;
+	padding-top: 13px;
+	}
+
+#footer{
+	height:155px;
+	margin:50px auto;
+	width:1010px;
+}
+
+#data{
+	height: auto;
+	width: 600px;
+	margin:50px auto;
+}
+
+#data tr td font{
+	color: red;
+	font: lucida;
+	font-size: 10;
+}
+
+#data tr td{
+	color: black;
+	font: lucida;
+}
+#data tr th{
+	color: black;
+	text-decoration: underline;
+	font: lucida;
+	text-align: left;
+}
