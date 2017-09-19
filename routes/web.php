@@ -64,6 +64,7 @@ Route::get('blade', function () {
    return view('page',array('name' => 'Virat Gandhi'));
 });
 
+
 Route::get('insert','insertStudent@insertform');
 Route::post('create','insertStudent@insert');
 
